@@ -9,13 +9,20 @@
 /* Begin PBXBuildFile section */
 		F53BC28128DF276A00C33D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53BC28028DF276A00C33D97 /* AppDelegate.swift */; };
 		F53BC28328DF276A00C33D97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53BC28228DF276A00C33D97 /* SceneDelegate.swift */; };
-		F53BC28528DF276A00C33D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53BC28428DF276A00C33D97 /* ViewController.swift */; };
+		F53BC28528DF276A00C33D97 /* DiaryFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53BC28428DF276A00C33D97 /* DiaryFormViewController.swift */; };
 		F53BC28828DF276A00C33D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53BC28628DF276A00C33D97 /* Main.storyboard */; };
 		F53BC28A28DF276D00C33D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53BC28928DF276D00C33D97 /* Assets.xcassets */; };
 		F53BC28D28DF276D00C33D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53BC28B28DF276D00C33D97 /* LaunchScreen.storyboard */; };
-		F53BC29828DF276D00C33D97 /* NewDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53BC29728DF276D00C33D97 /* NewDiaryTests.swift */; };
-		F53BC2A228DF276E00C33D97 /* NewDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53BC2A128DF276E00C33D97 /* NewDiaryUITests.swift */; };
-		F53BC2A428DF276E00C33D97 /* NewDiaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53BC2A328DF276E00C33D97 /* NewDiaryUITestsLaunchTests.swift */; };
+		F53BC2B628E0A8F300C33D97 /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = F53BC2B528E0A8F300C33D97 /* ObjectMapper */; };
+		F53BC2B828E0A93D00C33D97 /* DiaryFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53BC2B728E0A93D00C33D97 /* DiaryFormViewModel.swift */; };
+		F53BC2BB28E0AB7D00C33D97 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = F53BC2BA28E0AB7D00C33D97 /* RxCocoa */; };
+		F53BC2BD28E0AB7D00C33D97 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F53BC2BC28E0AB7D00C33D97 /* RxSwift */; };
+		F53BC2C028E0CE5D00C33D97 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F53BC2C228E0CE5D00C33D97 /* Localizable.strings */; };
+		F53BC2C728E0D39000C33D97 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53BC2C628E0D39000C33D97 /* PhotoCollectionViewCell.swift */; };
+		F53BC2CA28E1459700C33D97 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53BC2C928E1459700C33D97 /* StringExtension.swift */; };
+		F53BC2CC28E1469700C33D97 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53BC2CB28E1469700C33D97 /* WebService.swift */; };
+		F53BC2D028E149D400C33D97 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53BC2CF28E149D400C33D97 /* User.swift */; };
+		F53BC2DB28E1562F00C33D97 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F53BC2DA28E1562F00C33D97 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +46,19 @@
 		F53BC27D28DF276A00C33D97 /* NewDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F53BC28028DF276A00C33D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F53BC28228DF276A00C33D97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F53BC28428DF276A00C33D97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F53BC28428DF276A00C33D97 /* DiaryFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryFormViewController.swift; sourceTree = "<group>"; };
 		F53BC28728DF276A00C33D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F53BC28928DF276D00C33D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F53BC28C28DF276D00C33D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F53BC28E28DF276D00C33D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F53BC29328DF276D00C33D97 /* NewDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F53BC29728DF276D00C33D97 /* NewDiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDiaryTests.swift; sourceTree = "<group>"; };
 		F53BC29D28DF276E00C33D97 /* NewDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F53BC2A128DF276E00C33D97 /* NewDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDiaryUITests.swift; sourceTree = "<group>"; };
-		F53BC2A328DF276E00C33D97 /* NewDiaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDiaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F53BC2B728E0A93D00C33D97 /* DiaryFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryFormViewModel.swift; sourceTree = "<group>"; };
+		F53BC2C128E0CE5D00C33D97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F53BC2C628E0D39000C33D97 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		F53BC2C928E1459700C33D97 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		F53BC2CB28E1469700C33D97 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		F53BC2CF28E149D400C33D97 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F53BC2BB28E0AB7D00C33D97 /* RxCocoa in Frameworks */,
+				F53BC2DB28E1562F00C33D97 /* Alamofire in Frameworks */,
+				F53BC2B628E0A8F300C33D97 /* ObjectMapper in Frameworks */,
+				F53BC2BD28E0AB7D00C33D97 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,8 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				F53BC27F28DF276A00C33D97 /* NewDiary */,
-				F53BC29628DF276D00C33D97 /* NewDiaryTests */,
-				F53BC2A028DF276E00C33D97 /* NewDiaryUITests */,
 				F53BC27E28DF276A00C33D97 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,30 +113,67 @@
 			children = (
 				F53BC28028DF276A00C33D97 /* AppDelegate.swift */,
 				F53BC28228DF276A00C33D97 /* SceneDelegate.swift */,
-				F53BC28428DF276A00C33D97 /* ViewController.swift */,
+				F53BC2C328E0D23200C33D97 /* ViewController */,
+				F53BC2C428E0D24400C33D97 /* ViewModel */,
+				F53BC2C528E0D35300C33D97 /* View */,
+				F53BC2CE28E1481000C33D97 /* Model */,
+				F53BC2C828E1454A00C33D97 /* Helper */,
 				F53BC28628DF276A00C33D97 /* Main.storyboard */,
 				F53BC28928DF276D00C33D97 /* Assets.xcassets */,
 				F53BC28B28DF276D00C33D97 /* LaunchScreen.storyboard */,
 				F53BC28E28DF276D00C33D97 /* Info.plist */,
+				F53BC2C228E0CE5D00C33D97 /* Localizable.strings */,
 			);
 			path = NewDiary;
 			sourceTree = "<group>";
 		};
-		F53BC29628DF276D00C33D97 /* NewDiaryTests */ = {
+		F53BC2C328E0D23200C33D97 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F53BC29728DF276D00C33D97 /* NewDiaryTests.swift */,
+				F53BC28428DF276A00C33D97 /* DiaryFormViewController.swift */,
 			);
-			path = NewDiaryTests;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
-		F53BC2A028DF276E00C33D97 /* NewDiaryUITests */ = {
+		F53BC2C428E0D24400C33D97 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				F53BC2A128DF276E00C33D97 /* NewDiaryUITests.swift */,
-				F53BC2A328DF276E00C33D97 /* NewDiaryUITestsLaunchTests.swift */,
+				F53BC2B728E0A93D00C33D97 /* DiaryFormViewModel.swift */,
 			);
-			path = NewDiaryUITests;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F53BC2C528E0D35300C33D97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F53BC2C628E0D39000C33D97 /* PhotoCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F53BC2C828E1454A00C33D97 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F53BC2CD28E1472500C33D97 /* Service */,
+				F53BC2C928E1459700C33D97 /* StringExtension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F53BC2CD28E1472500C33D97 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F53BC2CB28E1469700C33D97 /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F53BC2CE28E1481000C33D97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F53BC2CF28E149D400C33D97 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +192,12 @@
 			dependencies = (
 			);
 			name = NewDiary;
+			packageProductDependencies = (
+				F53BC2B528E0A8F300C33D97 /* ObjectMapper */,
+				F53BC2BA28E0AB7D00C33D97 /* RxCocoa */,
+				F53BC2BC28E0AB7D00C33D97 /* RxSwift */,
+				F53BC2DA28E1562F00C33D97 /* Alamofire */,
+			);
 			productName = NewDiary;
 			productReference = F53BC27D28DF276A00C33D97 /* NewDiary.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +270,11 @@
 				Base,
 			);
 			mainGroup = F53BC27428DF276A00C33D97;
+			packageReferences = (
+				F53BC2B428E0A8F300C33D97 /* XCRemoteSwiftPackageReference "ObjectMapper" */,
+				F53BC2B928E0AB7D00C33D97 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				F53BC2D928E1562F00C33D97 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = F53BC27E28DF276A00C33D97 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F53BC28D28DF276D00C33D97 /* LaunchScreen.storyboard in Resources */,
+				F53BC2C028E0CE5D00C33D97 /* Localizable.strings in Resources */,
 				F53BC28A28DF276D00C33D97 /* Assets.xcassets in Resources */,
 				F53BC28828DF276A00C33D97 /* Main.storyboard in Resources */,
 			);
@@ -258,7 +319,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F53BC28528DF276A00C33D97 /* ViewController.swift in Sources */,
+				F53BC2B828E0A93D00C33D97 /* DiaryFormViewModel.swift in Sources */,
+				F53BC2C728E0D39000C33D97 /* PhotoCollectionViewCell.swift in Sources */,
+				F53BC2CC28E1469700C33D97 /* WebService.swift in Sources */,
+				F53BC2CA28E1459700C33D97 /* StringExtension.swift in Sources */,
+				F53BC2D028E149D400C33D97 /* User.swift in Sources */,
+				F53BC28528DF276A00C33D97 /* DiaryFormViewController.swift in Sources */,
 				F53BC28128DF276A00C33D97 /* AppDelegate.swift in Sources */,
 				F53BC28328DF276A00C33D97 /* SceneDelegate.swift in Sources */,
 			);
@@ -268,7 +334,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F53BC29828DF276D00C33D97 /* NewDiaryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +341,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F53BC2A428DF276E00C33D97 /* NewDiaryUITestsLaunchTests.swift in Sources */,
-				F53BC2A228DF276E00C33D97 /* NewDiaryUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +374,14 @@
 				F53BC28C28DF276D00C33D97 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F53BC2C228E0CE5D00C33D97 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F53BC2C128E0CE5D00C33D97 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -604,6 +675,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F53BC2B428E0A8F300C33D97 /* XCRemoteSwiftPackageReference "ObjectMapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tristanhimmelman/ObjectMapper.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.0;
+			};
+		};
+		F53BC2B928E0AB7D00C33D97 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.5.0;
+			};
+		};
+		F53BC2D928E1562F00C33D97 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F53BC2B528E0A8F300C33D97 /* ObjectMapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F53BC2B428E0A8F300C33D97 /* XCRemoteSwiftPackageReference "ObjectMapper" */;
+			productName = ObjectMapper;
+		};
+		F53BC2BA28E0AB7D00C33D97 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F53BC2B928E0AB7D00C33D97 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		F53BC2BC28E0AB7D00C33D97 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F53BC2B928E0AB7D00C33D97 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		F53BC2DA28E1562F00C33D97 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F53BC2D928E1562F00C33D97 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F53BC27528DF276A00C33D97 /* Project object */;
 }

@@ -1,0 +1,10 @@
+"alert_action_camera" = "Take photo";
+"alert_action_saved_photos" = "Camera roll";
+"alert_action_photo_library" = "Photo library";
+"alert_action_cancel" = "Cancel";
+"alert_add_diary_title_success" = "Add to Diary Successful";
+"alert_add_diary_message_success" = "User ID: %@";
+"alert_add_diary_title_failed" = "Add to Diary Failed";
+"alert_add_diary_message_failed" = "Please add photos to proceed to next step.";
+"alert_confirm_button_title" = "OK";
+"alert_loading_message" = "Loading...";

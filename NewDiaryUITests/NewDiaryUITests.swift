@@ -1,10 +1,3 @@
-//
-//  NewDiaryUITests.swift
-//  NewDiaryUITests
-//
-//  Created by A.Pagdanganan on 9/24/22.
-//
-
 import XCTest
 
 class NewDiaryUITests: XCTestCase {
